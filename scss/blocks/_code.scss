@@ -1,0 +1,43 @@
+.code-section {
+  padding: 50px 0;
+  background-image: url("../img/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+// .csircle {
+//   position: absolute;
+//   width: 600px;
+//   height: 600px;
+//   border-radius: 50%;
+//   top: 100px;
+//   left: -300px;
+//   background: $secondary-color;
+//   z
+// }
+
+.code-img-box {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background: #fff8f0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  p {
+    position: absolute;
+    font-size: 50px;
+  }
+  .text {
+    top: 35%;
+  }
+  .code {
+    bottom: 248px;
+    color: #ffeacf;
+  }
+}
