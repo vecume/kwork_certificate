@@ -1,0 +1,79 @@
+.gift-section {
+  padding-top: 150px;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.gift__title {
+  font-size: 8rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+.gift__description {
+  text-align: center;
+  font-family: $lato;
+  font-size: 30px;
+  margin-bottom: 150px;
+}
+
+.gift__info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+
+  h3,p {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  p {
+    color: $secondary-color;
+  }
+}
+
+.beard-box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.beard-img-wrapper {
+  position: relative;
+
+  img {
+    position: relative;
+    z-index: 2;
+  }
+
+  &::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: #ffeacf;
+    z-index: 1;
+    top: -50px;
+    right: -100px;
+  }
+}
+
+.notification-box {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 50px;
+  span {
+    &:first-child {
+      color: $secondary-color;
+    }
+  }
+}

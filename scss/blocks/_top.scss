@@ -23,6 +23,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 .logo {
@@ -34,20 +35,31 @@
   height: 800px;
   background: #fff8f0;
   border-radius: 50%;
-  
 }
 
 .contacts-wrapper {
+  position: absolute;
+  width: 100%;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  bottom: 80px;
 
   a {
     font-size: 60px;
     text-decoration: none;
     display: block;
     color: $primary-color;
+    margin-bottom: 10px;
+  }
+
+  span {
+    display: block;
+    font-family: $lato;
+    font-size: 30px;
+  }
+  .free-around-ru {
+    text-align: right;
   }
 }
-
