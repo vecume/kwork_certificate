@@ -75,6 +75,10 @@
   span {
     &:first-child {
       color: $secondary-color;
+      margin-right: 15px;
+    }
+    &:nth-child(2) {
+      font-weight: bold;
     }
   }
 }
